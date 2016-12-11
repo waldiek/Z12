@@ -13,32 +13,27 @@
 	mysql_query("SET CHARSET utf8");
 	mysql_query("SET NAMES 'utf8' COLLATE 'utf8_bin'");
 	
-
+	$home_dir = "/users/0023/sh181891/www/datalogi.pl/z12/";
 
 
 	echo '<h2>Nowy folder</h2>';
 	if($_SESSION['zalogowany']  == false)
 	{
 		//the user is not signed in
-		echo 'Sorry, you have to be <a href="/forum/signin.php">signed in</a> to create a topic.';
+		echo 'Sorry, you have to be <a href="/logowanie.php">signed in</a> to create a folder.';
 	}
 	else
 	{
 
 		?>
 
-		<form method="post" action="">
-		Tytuł: <input type="text" name="topic_subject" size="48"/>	</td>
+		<form method="post" action="index.php?id=create_folder_result">
+		Tytuł: <input type="text" name="nazwa_folderu" size="48"/>	</td>
 		<input type="submit" value="Create folder" />
 
 		</form>
-
-		<?php
-		{
-			//after a lot of work, the query succeeded!
-			//echo 'You have successfully created new folder</a>.';
-		}
+<?php
 	}
-?>
+	?>
 </body>
 </html>
