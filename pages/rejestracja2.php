@@ -1,0 +1,1 @@
+﻿<b><center>Twoje konto zostało utworzone. Zaloguj się.</center></b>

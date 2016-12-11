@@ -1,0 +1,39 @@
+#panel
+{
+	background: #0050aa;
+	padding: 20px;
+	width: 300px;
+	position: absolute;
+	margin-top: 50%;
+	right: 0px;
+    border-radius: 10px 0px 0px 10px;
+    border: 2px solid #e0e0e0;
+    border-right-style:none;
+   
+}
+ 
+ul#main_menu
+{
+	list-style: none;
+    padding-left:0px;
+    text-align:center;
+}
+ 
+#main_menu a
+{
+    display:block;
+    height:20px;
+	color: #ffffff;
+	text-decoration: none;
+}
+ 
+#main_menu a:hover
+{
+	    background-color:#d30000;
+}
+
+
+ 
+a:focus { 
+outline:none; 
+}

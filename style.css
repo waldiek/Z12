@@ -1,0 +1,59 @@
+body{	
+    background: linear-gradient(to bottom, #e0e0e0,#c9ddff)
+    }
+
+header{
+    background-color:#e0e0e0;
+    height:200px;
+    margin-top:50px;
+}
+
+#headerstyle{
+    background-color: #e0e0e0; 
+    background-image:url("http://www.caenrfid.it/documents/WebObject/attach/logo-new_datalogic.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:contain;
+    
+    height:200px;
+}
+
+
+#active a:hover{
+	background-color:#d30000 ;
+	transition: background-color 0.4s ease;
+	color:white;
+}
+
+#active a{
+	color:white;
+}
+
+
+
+#mainpage{
+   margin-top:20px;
+    background-color:#efefef; 
+	height:90%;
+    	border-bottom-style:none;
+        border-radius: 10px 10px 0px 0px;
+        border:2px solid #070054; 
+
+
+}
+
+#footerstyle{
+	padding-right:30px;
+	padding-top:5px;
+	text-align: right;
+	color:black;
+	border-radius: 0px 0px 10px 10px;
+	border: 2px solid #070054; 
+	border-top-style:none;
+
+}
+
+#forumtable{
+	background-color: #FF00000;
+	color:white;
+}
